@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "345525582425",
+    "project_id": "baysel-aa339",
+    "storage_bucket": "baysel-aa339.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345525582425:android:fa46e5c77a331b2188cf48",
+        "android_client_info": {
+          "package_name": "com.alemtilsimat.baysel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsR-5em62KzXZ7AEZmlcTO_JmA-sG453k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

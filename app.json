@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "BaySel",
+    "slug": "baysel",
+    "scheme": "baysel",
+    "version": "1.0.14",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "dark",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#070417",
+      "translucent": true
+    },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#070417"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alemtilsimat.baysel",
+      "infoPlist": {
+        "LSMinimumSystemVersion": "12.0",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ff0000"
+      },
+      "package": "com.alemtilsimat.baysel",
+      "googleServicesFile": "./utils/google-services.json",
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c2acb310-0c0d-4619-a26c-e7ee2ce78ae8"
+      }
+    },
+    "owner": "enzadevs-org"
+  }
+}
